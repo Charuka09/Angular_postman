@@ -7,5 +7,5 @@
 {{ hotels | json }}
 <ul *ngFor="let hotel of hotels">
   <li style="color: blueviolet">{{ hotel.name }}</li>
-  <li style="color: crimson">{{ hotel.position }}</li>
+  <li style="color: crimson">{{ hotel.position[0]}}</li>
 </ul>
